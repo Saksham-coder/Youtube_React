@@ -1,0 +1,36 @@
+.videoframe{
+    width: 90%;
+    height: 80vh;
+    margin: 10px 30px;
+}
+
+.displayvideo_main{
+    display: flex;
+    background-color: #f9f9f9;
+    flex: 1;
+}
+
+.displayvideo_mainleft{
+    display: flex;
+    /* flex: 0.8; */
+    width: 73%;
+}
+
+.videoframe{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 90px;
+    z-index: 999;
+}
+
+.displayvideo_mainright{
+    /* flex: 0.1; */
+    width: 20%;
+}
+
+
+.displayvideo_mainright_h{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+

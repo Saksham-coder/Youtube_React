@@ -1,0 +1,33 @@
+.sidevideocard{
+    display: flex;
+    width: 110%;
+    /* flex: 1; */
+}
+
+.sidevideocard_thumbnail{
+    width: 56%;
+    height: 100px;
+    /* height: 118p; */
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.sidevideo_text {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sidevideo_info{
+    width: 54% ;
+}
+
+.sidevideo_text{
+    width: 100%;
+}
+
+.sidevideo_channel {
+    font-size: 14px;
+    color: gray;
+    margin-top: 10px;
+}
